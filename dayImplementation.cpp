@@ -48,6 +48,15 @@ void typeDay::changeday(int x)
 {
      int change,date,answer;
      date = x;
+     if(date == 7)
+          date = 0;
+     else if(date < 0)
+          date = date + 7;
+     else if(date > 7)
+         date=(date+7)%7;
+     else
+         date=date;
+     
      cout<<"\nPlease make a selection:\n1) View the current day.\n2) View the previous day.\n3) View the next day.\n4) View a day by adding a certain number of days.\nAny other number will Exit.\n\n"<<endl;
      cin>>answer;
      if (answer==1)
