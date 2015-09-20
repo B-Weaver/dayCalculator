@@ -1,0 +1,4 @@
+# dayCalculator
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I designed a class in the header file for the original day, new day, and the functions. In the implementation file I utilized enumeration, switch case, and recursive functions. I set the first function to print out an error message and exit if the user inputs invalid data.  
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When the program is started it prompts the user for input declaring what day it is currently. The user is then prompted with a menu to choose an action to perform. The user can set the next day, previous day, or enter an integer and see what day it would be after adding to the current day or subtracting from the current day, if the entered integer is negative. This program uses recursive functions to allow the user to stay in the program until they wish to exit at the menu.</p>  
+
